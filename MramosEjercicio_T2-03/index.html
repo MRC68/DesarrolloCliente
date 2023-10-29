@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Carrera</title>
+  </head>
+  <body>
+    <form name="formu">
+      <div class="animales" id="animales">
+        <img name="t1" id="t1" class="tigre1" src="./img/tigre.gif" />
+        <img name="t2" id="t2" class="tigre2" src="./img/tigre.gif" />
+      </div>
+      <div>
+        <button type="submit"
+          value="COMENZAR"
+          class="comenzar"
+          name="comenzar"
+          onclick="reinicio()">
+          REINICIAR
+        </button>
+      </div>
+      <div class="botones">
+        <button
+          type="submit"
+          value="CORRER"
+          class="correr"
+          name="correr"
+          onclick="run()">
+          CORRER
+        </button>
+        <button
+          type="submit"
+          value="EMPATE"
+          class="empate"
+          name="empate"
+          onclick="igualdad()">
+          EMPATE
+        </button>
+        <button
+          type="submit"
+          value="PARAR"
+          class="parar"
+          name="parar"
+          onclick="stop()">
+          PARAR
+        </button>
+      </div>
+    </form>
+    <script type="text/javascript" src="./js/codigo.js"></script>
+  </body>
+</html>

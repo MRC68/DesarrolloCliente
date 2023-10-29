@@ -1,0 +1,56 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: darkolivegreen;
+}
+.animales {
+  margin-top: 10px;
+
+}
+button {
+  font-size: 20px;
+  text-align: center;
+}
+
+.tigre1 {
+  position: absolute;
+  width: 200px;
+}
+.tigre2 {
+  position: relative;
+  margin-top: 130px;
+  width: 200px;
+}
+.comenzar {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: palevioletred;
+  border-color:  magenta;
+  position: absolute;}
+
+.botones {
+  display: flex;
+  align-content: space-around;
+  margin-left: 140px;
+}
+.correr {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: mediumseagreen;
+  border-color: green;
+}
+.empate {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: goldenrod;
+  border-color: chocolate;
+}
+.parar {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: crimson;
+  border-color: darkred;
+}
